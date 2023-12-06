@@ -17,7 +17,7 @@ export default class Header extends React.Component <any>{
   render() {
     return (
       <SafeAreaView style={styles.container}>
-        <Text style={styles.text}>Bar</Text>
+        <Text style={styles.text}>Porções</Text>
       </SafeAreaView>
     );
   }
