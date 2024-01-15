@@ -20,6 +20,8 @@ export interface pedido_props {
     pix?:boolean;
     cartao?:cartao;
 
+    itens?:Item[]
+
   }
 export interface cartao{
     visa:boolean;
