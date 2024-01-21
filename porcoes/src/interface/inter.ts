@@ -60,5 +60,7 @@ export interface user_on{
     dinheiro:number;
     cartao:cartao;
     pix:boolean;
+
+    name_outros?:string;
   }
   
